@@ -108,8 +108,8 @@ document.querySelector(".wrapper").style.height = "80%";
 						(weatherBackground.style.backgroundImage =
 							"url('images/clear.jpg')"),
 							(weatherBackground.style.color = "black");
-					} else if (weatherDescription.innerText == "Rainy") {
-						weatherBackground.style.backgroundImage = "url('images/rainy.jpg')";
+					} else if (weatherDescription.innerText == "Rain") {
+						(weatherBackground.style.backgroundImage = "url('images/rainy.jpg')");
 					} else if (weatherDescription.innerText == "Snow") {
 						(weatherBackground.style.backgroundImage =
 							"url('images/snow.jpg')"),
