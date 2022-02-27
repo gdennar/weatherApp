@@ -239,12 +239,12 @@ button {
 	}
 
 	.day_two {
-		width: 70%;
+		width: fit-content;
 	}
 
 	.day_three {
 		display: grid;
-		width: 100%;
+		width: fit-content;
         padding-left: 5px;
 	}
 
