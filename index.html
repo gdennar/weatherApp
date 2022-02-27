@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="wrapper">
+				
+				<div class="search_container">
+					<img
+						class="geolocation_icon"
+						src="https://img.icons8.com/color/48/000000/marker--v2.png"
+					/>
+					<form action="">
+						<input
+							class="weather_search"
+							type="text"
+							placeholder="Enter your location..."
+							name="location"
+						/>
+						<button type="submit">Search</button>
+					</form>
+				</div>
+				<div class="weather_container">
+					<div class="weather_info">
+						<div class="weather_info_wrap">
+							<div class="city"></div>
+							<div class="date"></div>
+							<img class="icon" src="" />
+							<div class="description"></div>
+						</div>
+						<div class="weather_temperature">
+							<div class="degree"></div>
+						</div>
+					</div>
+
+					<div class="other_days">
+						<div class="week day_one">
+							<div class="forecast day_one_date"></div>
+							<img class="forecast day_one_icon" />
+							<div class="forecast day_one_desc"></div>
+							<div class="forecast day_one_temp"></div>
+						</div>
+						<div class="week day_two">
+							<div class="forecast day_two_date"></div>
+							<img class="forecast day_two_icon" />
+							<div class="forecast day_two_desc"></div>
+							<div class="forecast day_two_temp"></div>
+						</div>
+						<div class="week day_three">
+							<div class="forecast day_three_date"></div>
+							<img class="forecast day_three_icon" />
+							<div class="forecast day_three_desc"></div>
+							<div class="forecast day_three_temp"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<script src="index.js"></script>
+	</body>
+</html>
