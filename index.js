@@ -234,7 +234,8 @@ function displayWeather(data) {
 		(weatherBackground.style.backgroundImage = "url('images/clear.jpg')"),
 			(weatherBackground.style.color = "black");
 	} else if (weatherDescription.innerText == "Rain") {
-		(weatherBackground.style.backgroundImage = "url('images/rainy.jpg')");
+		(weatherBackground.style.backgroundImage = "url('images/rainy.jpg')"),
+        (weatherBackground.style.color = "white");
 	} else if (weatherDescription.innerText == "Snow") {
 		(weatherBackground.style.backgroundImage = "url('images/snow.jpg')"),
 			(weatherBackground.style.color = "black");
